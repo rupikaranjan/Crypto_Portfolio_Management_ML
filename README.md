@@ -7,13 +7,9 @@ A Crypto Portfolio Management application is created using financial Python prog
 
 This application works on python 3.7 and uses following libraries:
 
-* [matplotlib](https://github.com/matplotlib/matplotlib.git) - For creating static, animated, and interactive visualizations.
+* [hvplot](https://hvplot.holoviz.org/user_guide/Introduction.html) - A component of PyViz ecosystem used for creating Interactive Visualizations of data.
 
-* [numpy](https://numpy.org/doc/stable/) - Numpy is a Python library that provides fundamental package for scientific computing in Python.
-
-* [hvplot]() - 
-
-* [sklearn]() - 
+* [scikit-learn library](https://scikit-learn.org/stable/user_guide.html) - Open source library for Python programming which offers several algorithms for supervised and unsupervised learning. 
 
 ---
 
@@ -23,8 +19,9 @@ This application works on python 3.7 and uses following libraries:
 Follow the following instructions before using the application.
 
 ```python
-  pip install numpy
-  pip install -U matplotlib
+  pip install -U scikit-learn
+  
+  conda install -c pyviz hvplot
 ```
 ---
 
